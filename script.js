@@ -106,10 +106,10 @@ submitBtn.addEventListener('click', () => {
           
            
            
-                <div class="quiz-header">
+                <div class="${quizData[i].correct===answers[i]?
+                    "correct": "false" } quiz-header">
                 <h2 id="question">${question.question}</h2>
-                <ul id="resultquestion" class="${quizData[i].correct===answers[i]?
-                    "correct": "false" }">
+                <ul id="resultquestion" >
                   <li >
                     <input type="radio" name="answer" id="a" class="answer">
                     <label for="a" id="a_text">${question.a}</label>

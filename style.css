@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #85ffbd;
-  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+  background-color: #3eecac;
+  background-image: linear-gradient(19deg, #3eecac 0%, #ee74e1 100%);
 
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -18,9 +18,11 @@ body {
 
 .quiz-container {
   margin: 2rem;
-  background-color: #fff;
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+
   border-radius: 50px;
-  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  box-shadow: 2px 2px 10px 2px rgba(100, 100, 100, 0.1);
   width: 600px;
 }
 
