@@ -5,8 +5,9 @@
 }
 
 body {
-  background-color: #b8c6db;
-  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%);
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+
   font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
@@ -16,11 +17,11 @@ body {
 }
 
 .quiz-container {
+  margin: 2rem;
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 50px;
   box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
   width: 600px;
-  overflow: hidden;
 }
 
 .quiz-header {
@@ -48,7 +49,7 @@ ul li label {
 }
 
 button {
-  background-color: #8e44ad;
+  background-color: #54c546;
   color: #fff;
   border: none;
   display: block;
@@ -60,15 +61,15 @@ button {
 }
 
 .correct {
-  background-color: #208328;
+  background-color: #6cdd75;
 }
 
 .false {
-  background-color: #d15555;
+  background-color: #ec8e8e;
 }
 
 button:hover {
-  background-color: #732d91;
+  background-color: #ae44db;
 }
 
 button:focus {
