@@ -102,14 +102,11 @@ submitBtn.addEventListener('click', () => {
            let results= quizData.map ((question,i) => 
            
            
-           `
-          
-           
-           
+           ` 
                 <div class="${quizData[i].correct===answers[i]?
-                    "correct": "false" } quiz-header">
+                    "correct": "false" } quiz-header ">
                 <h2 id="question">${question.question}</h2>
-                <ul id="resultquestion" >
+                <ul id="resultquestion"  >
                   <li >
                     <input type="radio" name="answer" id="a" class="answer">
                     <label for="a" id="a_text">${question.a}</label>
@@ -130,8 +127,8 @@ submitBtn.addEventListener('click', () => {
                     <label for="d" id="d_text">${question.d}</label>
                   </li>
                   <li>
-                  <h2>Correct answer: ${quizData[i].correct}</h2>
-                  <h2>Selected answer: ${answers[i]}</h2>
+                  <h4>Correct answer: ${question[quizData[i].correct]}</h4>
+                  <h4>Selected answer: ${question[answers[i]]}</h4>
 
                 
                   </li>

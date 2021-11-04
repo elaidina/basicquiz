@@ -28,6 +28,13 @@ body {
 
 .quiz-header {
   padding: 4rem;
+  margin: 1rem;
+  border-radius: 2rem;
+  box-shadow: 5px 5px 10px 5px rgba(100, 100, 100, 0.8);
+}
+
+.flex {
+  display: flex;
 }
 
 h2 {
@@ -51,7 +58,7 @@ ul li label {
 }
 
 button {
-  background-color: #54c546;
+  background-color: #5ed14e;
   color: #fff;
   border: none;
   display: block;
