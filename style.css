@@ -10,10 +10,13 @@ body {
 
   font-family: "Poppins", sans-serif;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  width: 100vw;
+  min-height: 100vh;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .quiz-container {
@@ -84,4 +87,30 @@ button:hover {
 button:focus {
   outline: none;
   background-color: #5e3370;
+}
+
+nav {
+  color: #fff;
+  background-color: blueviolet;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+img {
+  max-height: 25vh;
 }
