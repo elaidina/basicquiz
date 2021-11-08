@@ -127,8 +127,8 @@ submitBtn.addEventListener('click', () => {
                     <label for="d" id="d_text">${question.d}</label>
                   </li>
                   <li>
-                  <h4>Correct answer: ${question[quizData[i].correct]}</h4>
-                  <h4>Selected answer: ${question[answers[i]]}</h4>
+                  <h4>Vybral jsi: ${question[quizData[i].correct]}</h4>
+                  <h4>Správná odpověď: ${question[answers[i]]}</h4>
 
                 
                   </li>
@@ -151,7 +151,7 @@ submitBtn.addEventListener('click', () => {
 
 
             quiz.innerHTML = `
-                <h2>You answered ${score}/${quizData.length} questions correctly</h2>
+                <h2>Získal jsi ${score} bodů z${quizData.length}.</h2>
                
 
                 
@@ -163,7 +163,7 @@ submitBtn.addEventListener('click', () => {
 
                 
 
-                <button onclick="location.reload()">Reload</button>
+                <button onclick="location.reload()">Znovu zkusit</button>
             `
         
         
